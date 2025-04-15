@@ -1,67 +1,33 @@
-# predictive-model-loan-heart-risk
-This project focuses on building a statistical and predictive modeling pipeline using a dataset containing over 4,000 entries and 14 attributes. The primary objective is to analyze health-related data to identify and evaluate key factors contributing to the risk of cardiovascular disease (CVD), particularly heart attacks.
+Cardiovascular Risk Prediction Using Data Analytics
 
 Project Overview
-This project aims to analyze a comprehensive healthcare dataset containing over 4,000 records and 14 attributes to uncover insights into the risk factors behind cardiovascular diseases (CVD), particularly heart attacks. Alongside this, the project also models potential loan demand across different U.S. regions and incorporates a dashboard that refreshes periodically based on new data retrieved from external agencies.
+This project focuses on analyzing a structured healthcare dataset containing over 4,000 records and 14 medical attributes to identify and model the risk factors associated with cardiovascular diseases (CVD), with a specific emphasis on predicting the likelihood of heart attacks. The project employs a combination of statistical analysis, predictive modeling, and interactive data visualization to uncover patterns within patient records and provide actionable health insights through a dynamic dashboard.
 
-Through a structured approach involving data inspection, exploration, modeling, and visualization, the project applies statistical and machine learning techniques to build meaningful predictions and business insights.
 
 Objective
-The main goals of this project are:
-
-To inspect and clean the dataset by handling missing values, detecting duplicates, and understanding the structure of the data.
-
-To explore data visually and statistically, focusing on demographic and clinical variables influencing CVD.
-
-To model and predict the occurrence of heart attacks using logistic regression and other techniques.
-
-To analyze the correlation between health indicators and financial factors such as loan demand.
-
-To build an interactive dashboard that presents real-time insights into patient profiles and loan projections.
+The primary goals of this project were:
+To conduct a thorough inspection of the dataset, including the identification of missing values, duplicates, and structural characteristics. To explore the data using statistical summaries and visual techniques that highlight trends in age, cholesterol levels, blood pressure, thalassemia, and gender. To distinguish between categorical and continuous variables and analyze their relationship with cardiovascular risk. To develop a logistic regression model for predicting heart attack risk and validate it using a confusion matrix. To utilize pair plots and visual exploration tools to study correlations across all variables. To build an interactive Tableau dashboard that contrasts healthy versus at-risk individuals and illustrates the relationships between key health indicators.
 
 Key Features
 1. Data Import and Cleaning
-
-Loaded data from an Excel source.
-
-Identified and treated missing values and duplicate records.
-
-Produced summary statistics for all numerical and categorical variables.
+The dataset was imported from an Excel source and cleaned through the treatment of missing values and the removal of duplicates. Structural integrity and completeness were confirmed before proceeding with deeper analysis. Summary statistics were generated to better understand data distributions.
 
 2. Exploratory Data Analysis (EDA)
+EDA was used to visualize categorical variables through count plots and histograms. The analysis examined the incidence of heart disease by age group, explored anomalies in resting blood pressure, and evaluated gender composition. Cholesterol levels, thalassemia, and exercise-related features were also explored for their potential impact on heart disease.
 
-Used count plots and histograms to understand distributions.
+3. Statistical Modeling and Prediction
+A logistic regression model was implemented to predict the probability of heart attacks based on key variables. Model validation was conducted using a confusion matrix to assess its predictive performance. Pair plots were used to explore inter-variable relationships and to support feature selection.
 
-Studied CVD incidence by age, gender, and resting blood pressure anomalies.
+4. Dashboarding and Visualization
+An interactive dashboard was developed using Tableau to present findings visually. It allowed users to compare the profiles of healthy and diseased individuals, explore the role of various attributes, and interact with health trend data in a meaningful way. The dashboard was designed to support future updates through dynamic data integration.
 
-Examined cholesterol, thalassemia, and peak exercise metrics as risk indicators.
-
-3. Modeling and Prediction
-
-Investigated multivariate relationships using pair plots.
-
-Built a logistic regression model to predict heart attack likelihood.
-
-Validated predictions using a confusion matrix for accuracy.
-
-4. Dashboard Development
-
-Created interactive Tableau dashboards.
-
-Compared profiles of healthy vs. diseased individuals.
-
-Showcased the relationship between attributes in a dynamic view.
-
-Enabled periodic refresh using live data connections.
+5. Additional Insights
+The project provided a comprehensive look at how various demographic and medical factors correlate with cardiovascular health. It allowed for deeper understanding of high-risk profiles and can be used as a foundation for preventive strategies in healthcare settings.
 
 Summary of Achievements
-Developed a complete data science workflow from raw data to insights.
-
-Modeled healthcare risk and financial demand with predictive accuracy.
-
-Delivered a user-friendly dashboard for stakeholders and decision-makers.
-
-Aligned analytics with real-world health and economic objectives.
+The project demonstrated a complete data analytics pipeline—from raw data cleaning and exploration to predictive modeling and visual storytelling. It identified key health indicators strongly associated with heart attack risk and validated these findings with statistical rigor. The use of Tableau enhanced accessibility and stakeholder engagement through clear, dynamic visual representations of complex health data.
 
 Conclusion
-This project demonstrates the use of data analytics, statistical modeling, and visualization tools to address critical questions in both healthcare and financial sectors. By identifying key predictors of heart disease and modeling loan demand, the project contributes to smarter, data-driven decision-making processes.
+This project highlights the effectiveness of combining data analysis, machine learning, and visualization to solve real-world healthcare problems. By predicting cardiovascular risk using patient-level data and representing it through an interactive dashboard, the project supports data-driven decisions in medical research, clinical screening, and public health policy. It showcases the power of data science in uncovering critical insights that can save lives.
+
+
